@@ -16,10 +16,10 @@ function App() {
     <div className="App">
         <BrowserRouter>
           <Route exact component={NavBar}/>
-          <Route path="/" exact component={Start} />  
-          <Route path="/boss" exact component={Boss} />   
-          <Route path="/manager" exact component={Profile} />    
-          <Route path="/leader" exact component={Leader} />    
+          <Route path="/demo" exact component={Start} />  
+          <Route path="/demo/boss" exact component={Boss} />   
+          <Route path="/demo/manager" exact component={Profile} />    
+          <Route path="/demo/leader" exact component={Leader} />    
 
 
         </BrowserRouter>
