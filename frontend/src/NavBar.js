@@ -14,18 +14,20 @@ class NavBar extends Component{
 
     return(  
       <> 
-        <Link className="sign_log_button" to='/demo/boss'>
+        <br/>
+        <Link className="link__button sign_log_button" to='/demo/boss'>
           Ваш кабинет
         </Link>        
         <br/>
-        <Link className="sign_log_button" to="/demo/leader">
+        <Link className="link__button sign_log_button" to="/demo/leader">
           Кабинет руководителя
         </Link>        
-                <br/>
-
-        <Link className="sign_log_button" to="/demo/manager">
+         <br/>
+        <Link className="link__button sign_log_button" to="/demo/manager">
           Кабинет менеджера
         </Link>  
+        <br/>
+        <hr/>
       </>
     );
   }
