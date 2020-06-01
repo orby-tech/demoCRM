@@ -5,6 +5,7 @@
  }
 body {
   font-family: Void;
+  text-indent: 5%;
 }
 
 .App {
@@ -20,8 +21,7 @@ td {
 
 }
 .link__button{
-  float: left;
-  margin-left: 40px;
+  align: left;
 }
 .login__container {
   width: 300px;
@@ -100,7 +100,6 @@ label {
   grid-gap: 1vw;
 }
 
-.profile__input {}
 
 .profile__hGraphics {
   margin-top: 40px;
@@ -192,7 +191,6 @@ label {
   height: auto;
 }
 
-.leader__table {}
 
 
 
@@ -203,9 +201,12 @@ label {
 }
 
 .presentation__container{
-  max-width: 600px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  padding: 30px;
+  border-left: 1px solid rgb(243, 235, 235);
+  border-right: 1px solid rgb(243, 235, 235);
 }
 
 .presentation__text {
@@ -213,10 +214,15 @@ label {
 }
 
 
+.presentation__header{
+  padding-top: 30px;
+}
 
 
-
-
+ol {
+  list-style: lower-alpha;
+  text-align: left;
+}
 
 
 
