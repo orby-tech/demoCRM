@@ -104,7 +104,7 @@ class Profile extends Component{
           <p className="profile__XTitle"> Колличество заданий </p>
 
           <LineChart
-            width={810}
+            width={500}
             height={400}
             data={data}
             margin={{ top: 5, right: 20, left: 10, bottom: 5 }}

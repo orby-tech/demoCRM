@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+
+import { Link } from 'react-router-dom';
 import Modal from 'react-bootstrap/Modal';
 import {LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid, Legend} from 'recharts';
 
@@ -35,7 +37,7 @@ class Profile extends Component{
 
 	render(){
 		return(
-			<div className=""> 
+			<div className="bossLeftColumn__container"> 
 
 
         <div className="">
@@ -66,6 +68,44 @@ class Profile extends Component{
             <Legend />
           </LineChart>
         </div>
+        <div className="boss__table">
+					<h1 className="boss__additionalTasksHeader"> Дополнительные задания </h1>
+					<select className="custom-select leader__selectPersone">
+						<option value="selected">Общий список </option>
+
+						<option value="selected">Иванов </option>
+						<option value="selected">Отдел продаж</option>
+					</select>
+					<br />
+					<button className="leader__uppendAdditionalTask btn btn-success">
+						Добавить задание
+						</button>
+					<table className="boss__table">
+						<tr>
+							<td> Работник </td>
+							<td> Процесс </td>
+							<td> Состояние </td>
+							<td> Срок </td>
+							<td> Время выполнения </td>
+							<td> Редактировать </td>
+						</tr>
+
+						{
+							this.state.table.map(line =>
+								<>
+									<td><Link to="/profile"> {line[0]} </Link></td>
+									<td> {line[1]} </td>
+									<td> {line[2]} </td>
+									<td> {line[3]} </td>
+									<td> {line[4]} </td>
+									<td> {line[5]} </td>
+								</>
+							)
+						}
+					</table>
+
+				</div>
+
 			</div>
 			)
 	}

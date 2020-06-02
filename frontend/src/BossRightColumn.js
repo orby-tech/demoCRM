@@ -43,7 +43,7 @@ class Profile extends Component{
 
 	render(){
 		return(
-			<div className=""> 
+			<div className="bossRightColumn__container"> 
         <div className="profile__regularPlans">
                 <select  className="custom-select">
                   <option value="selected">Отдел продаж </option>
