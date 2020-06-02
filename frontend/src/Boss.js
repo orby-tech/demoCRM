@@ -37,6 +37,8 @@ class Boss extends Component {
 	render() {
 		return (
 			<div className="boss__container">
+
+				<h3 className="profile__hGraphics"> Статистика выполненых во время заданий </h3>
 				<select className="boss__graphSelect custom-select ">
 					<option value="selected"> Статистика выполнения</option>
 					<option value="selected"> Выручка отдела NN </option>
@@ -45,7 +47,6 @@ class Boss extends Component {
 
 
 				</select>
-				<h3 className="profile__hGraphics"> Статистика выполненых во время заданий </h3>
 				<p className="profile__XTitle"> Колличество заданий </p>
 
 				<LineChart
@@ -63,6 +64,8 @@ class Boss extends Component {
 					<Line type="monotone" dataKey="не выполнены" stroke="#FF0000" />
 					<Legend />
 				</LineChart>
+				<hr />
+				<br />
 				<h3 className=""> Дополнительные задания </h3>
 				<select className="custom-select boss__selectPersone">
 					<option value="selected">Общий список </option>
@@ -70,7 +73,7 @@ class Boss extends Component {
 					<option value="selected">Иванов </option>
 					<option value="selected">Отдел продаж</option>
 				</select>
-				<br />
+
 				<button className="boss__ticketAppend btn btn-success">
 					Добавить задание
 						</button>
@@ -97,7 +100,9 @@ class Boss extends Component {
 						)
 					}
 				</table>
-
+				<hr />
+				<br />
+				<h3> Повестка дня: </h3>
 				<div className="boss__regularPlans">
 					<select className="boss__sectorSelect custom-select">
 						<option value="selected">Отдел продаж </option>
@@ -105,26 +110,26 @@ class Boss extends Component {
 					<br />
 					<br />
 
-	
-				<div className="boss__planeOfSales">
-					<button className="btn btn-success">
+
+					<div className="boss__planeOfSales">
+						<button className="btn btn-success">
 							Редактировать план продаж отдела
 					</button>
-					<br />
-					<div className="">
-						<h5 className="profile__titlePlans"> План продаж на сегодня: </h5>
-						<h4 className="profile__countPlans"> 0 / 60000 </h4>
-					</div>
-					<div className="">
-						<h5 className="profile__titlePlans"> План публикаций на сегодня: </h5>
-						<h4 className="profile__countPlans"> 0 / 60 </h4>
+						<br />
+						<div className="">
+							<h5 className="profile__titlePlans"> План продаж на сегодня: </h5>
+							<h4 className="profile__countPlans"> 0 / 60000 </h4>
+						</div>
+						<div className="">
+							<h5 className="profile__titlePlans"> План публикаций на сегодня: </h5>
+							<h4 className="profile__countPlans"> 0 / 60 </h4>
+						</div>
 					</div>
 				</div>
-				</div>
-				<div className="profile__agenda">
-					<h2> Повестка дня: </h2>
+				<div className="boss__agenda">
+					
 					<button className="btn btn-success">
-								Добавить Smart Ticket
+						Добавить Smart Ticket
 					</button>
 					<div className="profile__smartTicket">
 						9 + 1

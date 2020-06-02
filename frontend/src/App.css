@@ -107,6 +107,13 @@ td {
 .boss__sectorSelect{
   width: 600px;
 }
+.boss__agenda {
+  display: block;
+  margin-left: 30px;
+  float: right;
+  margin-bottom: 30px;
+  width: 300px;
+}
 label {
   margin-top: 6px;
 }
