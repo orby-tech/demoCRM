@@ -44,40 +44,7 @@ class Profile extends Component{
 	render(){
 		return(
 			<div className="bossRightColumn__container"> 
-        <div className="profile__regularPlans">
-                <select  className="custom-select">
-                  <option value="selected">Отдел продаж </option>
-                </select>
-                <br />
-                <br />
-
-                <button className="btn btn-success">
-                  Редактировать план продаж отдела
-                </button>
-                <br />
-
-                <div className="">
-                  <h5 className="profile__titlePlans"> План продаж на сегодня: </h5>
-                  <h4 className="profile__countPlans"> 0 / 60000 </h4>
-                </div>            
-                <div className="profile__planOfannouncement">
-                  <h5 className="profile__titlePlans"> План публикаций на сегодня: </h5>
-                  <h4 className="profile__countPlans"> 0 / 60 </h4>
-                </div>
-
-            </div>
-          <div className="profile__agenda">
-              <h2> Повестка дня: </h2>  
-              <button className="btn btn-success"> 
-                Добавить Smart Ticket
-              </button>
-              <div className="profile__smartTicket"> 
-                  9 + 1
-              </div>
-              <div className="profile__smartTicket"> 
-                  Продать очень много
-              </div>              
-          </div>
+  
 			</div>
 			)
 	}

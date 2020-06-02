@@ -52,7 +52,18 @@ td {
   height: 10px;
   float: none;
 }
+.boss__selectPersone{
+  width: 400px;
+  display: inline-block;
+  float: left;
 
+}
+.boss__ticketAppend {
+  display: inline-block;
+  float: right;
+  margin-bottom: 10px;
+
+}
 .boss__table {
   padding-top: 30px;
   height: auto;
@@ -60,7 +71,10 @@ td {
   margin-bottom: 50px;
   
 }
-
+.boss__planeOfSales{
+  width: 300px;
+  float: left;
+}
 .boss__uppendAdditionalTask {
   width: 100%;
 
@@ -88,12 +102,13 @@ td {
 .boss__displayNO {
   display: none;
 }
-.bossLeftColumn__container{}
+.boss__regularPlans{
+}
+.boss__sectorSelect{
+  width: 600px;
+}
 label {
   margin-top: 6px;
-}
-.bossRightColumn__container{
-  width: 250px;
 }
 
 .profile__container {
