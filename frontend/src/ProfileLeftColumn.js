@@ -36,18 +36,7 @@ class Profile extends Component{
 	render(){
 		return(
 			<div className=""> 
-        <div className="profile__regularPlans">
-            <div className="profile__planOfSales">
-              <h3 className="profile__titlePlans"> План продаж на сегодня: </h3>
-              <h2 className="profile__countPlans"> 0 / 30000 </h2>
-            </div>            
-            <div className="profile__planOfannouncement">
-              <h3 className="profile__titlePlans"> План публикаций на сегодня: </h3>
-              <h2 className="profile__countPlans"> 0 / 30 </h2>
-            </div>
-        </div>
-        <br/>
-        <br/>
+
 
 
         <div className="profile__table">

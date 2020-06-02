@@ -44,24 +44,7 @@ class Profile extends Component{
 	render(){
 		return(
 			<div className=""> 
-            <div className="">
-                <br />
-                <button className=" btn btn-success"> 
-                  Оформить продажу
-                </button>
-                <button className="profile__titleButton btn btn-success"> 
-                  Я создал объявление 
-                </button>
-            </div>
-            <div className="">
-              <h2> Повестка дня: </h2>  
-              <div className="profile__smartTicket"> 
-                  9 + 1
-              </div>
-              <div className="profile__smartTicket"> 
-                  Продать очень много
-              </div>              
-          </div>
+
 			</div>
 			)
 	}

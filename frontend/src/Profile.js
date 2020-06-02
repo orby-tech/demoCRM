@@ -46,8 +46,40 @@ class Profile extends Component{
 
 	render(){
 		return(
-			<div className="profile__container"> 
-				<div>
+			<div className=""> 
+				<div className="profile__header">
+					<div className="profile__regularPlans">
+						<div className="profile__planOfSales">
+						<h3 className="profile__titlePlans"> План продаж на сегодня: </h3>
+						<h2 className="profile__countPlans"> 0 / 30000 </h2>
+						</div>            
+						<div className="profile__planOfannouncement">
+						<h3 className="profile__titlePlans"> План публикаций на сегодня: </h3>
+						<h2 className="profile__countPlans"> 0 / 30 </h2>
+						</div>
+					</div>
+					<div className="profile__actions">
+						<button className="profile__actionsButtons btn btn-success"> 
+						Оформить продажу
+						</button>
+						<button className="profile__actionsButtons btn btn-success"> 
+						Я создал объявление 
+						</button>
+					</div>
+					<div className="profile__tickets">
+						<h2> Повестка дня: </h2>  
+						<div className="profile__smartTicket"> 
+							9 + 1
+						</div>
+						<div className="profile__smartTicket"> 
+							Продать очень много
+						</div>              
+					</div>
+				</div>
+				<hr />
+
+
+							<div>
 					<LeftColumn />
 				</div>
 				<div>

@@ -4,9 +4,6 @@ import { LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid, Legend } from 'r
 
 
 
-import LeftColumn from './BossLeftColumn'
-import RightColumn from './BossRightColumn'
-
 
 const data = [
 	{ name: "6 мая 2020", выполнены: 3, "не выполнены": 2, amt: 500 },

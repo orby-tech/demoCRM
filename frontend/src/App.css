@@ -10,7 +10,7 @@ body {
 
 .App {
   text-align: center;
-  
+  padding: 0;
 }
 
 td {
@@ -143,8 +143,29 @@ label {
 .profile__title {
   width: 100%;
 }
+.profile__header{
 
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1vw;
+}
 .profile__regularPlans {
+  width: 500px;
+  float: left;
+}
+.profile__actions{
+  width: 200px;
+  padding: 20px;
+  display: block;
+}
+.profile__actionsButtons{
+  margin-top: 20px;
+  height: 40px;
+  width: 200px;
+}
+.profile__tickets{
+  width: 200px;
+  float: left;
 }
 
 .profile__titleButtons {
